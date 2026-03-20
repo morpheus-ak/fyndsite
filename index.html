@@ -1,8 +1,61 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fyndsite</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#featured">Featured Products</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <h1>Welcome to Fyndsite</h1>
+        <p>Your one-stop shop for all things fantastic!</p>
+    </header>
+
+    <section id="categories">
+        <h2>Categories</h2>
+        <div class="category-list">
+            <div class="category-item">Category 1</div>
+            <div class="category-item">Category 2</div>
+            <div class="category-item">Category 3</div>
+        </div>
+    </section>
+
+    <section id="featured">
+        <h2>Featured Products</h2>
+        <div class="product-list">
+            <div class="product-item">Product 1</div>
+            <div class="product-item">Product 2</div>
+            <div class="product-item">Product 3</div>
+        </div>
+    </section>
+
+    <section id="details">
+        <h2>Product Details</h2>
+        <p>More information about our products.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Fyndsite. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // JavaScript functionality
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('Document loaded');
+            // Add more complex functionality here
+        });
+    </script>
 </body>
 </html>
